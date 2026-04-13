@@ -16,12 +16,15 @@ The application includes a comparative analysis of 7 models (including XGBoost, 
 
 | Title | Short Description | Contributor(s) |
 | :--- | :--- | :--- |
-| **Data Preprocessing** | Loading UCI dataset, scaling features, and train/test splitting. | [Nombre] (100%) |
-| **Model Training & Convergence** | Implementation of 7 regressors and visualization of learning curves for MLP and XGBoost. | [Nombre A] (50%), [Nombre B] (50%) |
-| **Performance Evaluation** | Comparative table using R2 Score, MAE, and Mean Relative Percentage Error (MAPE). | [Nombre] (100%) |
-| **Stall Classification** | Random Forest Classifier to detect aerodynamic stall conditions (Angle > 14°). | [Nombre] (100%) |
-| **Interactive Dashboard** | Integrated UI using `ipywidgets` for real-time predictions and regulatory alerts. | Team |
-| **Final Report / Documentation** | Summary of findings and model selection rationale. | Team |
+| **0. Data Search and Objectives** | Search of reliable sources that offer interesting data for a ML project. | Team |
+| **1. Data Loading** | Retrieval of the NASA Airfoil Self-Noise dataset from the UCI Machine Learning Repository. | Carlos (60%) <br> Guillermo (40%) |
+| **2. Preprocessing** | Feature engineering for stall detection, data scaling, and splitting into training/testing sets. | Carlos (60%) <br> Guillermo (40%) |
+| **3. Model Benchmarking** | Definition of 7 regression algorithms (XGBoost, MLP, Random Forest, etc.) for performance comparison. | Team |
+| **4. Training Models and Convergence** | Model fitting and visualization of learning curves to monitor error reduction over iterations. | Team |
+| **5. Safety and Deployment** | Implementation of the prediction logic, including regulatory noise limits and stall alert systems. | Carlos (40%) <br> Guillermo (60%)  |
+| **6. Output** | Interactive dashboard using `ipywidgets` for real-time flight analysis and visual comparison of results. | Carlos (40%) <br> Guillermo (60%) |
+| **7. Presentation** | Design of support slides to illustrate the objectives, elaboration and results of the project. | Carlos (100%) |
+| **8. Documentation** | Creation of a Github repository to make the code and information available. | Guillermo (100%) |
 
 ---
 
